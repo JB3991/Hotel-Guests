@@ -14,6 +14,9 @@
 		4890477B25DEE38D00DAD622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4890477925DEE38D00DAD622 /* LaunchScreen.storyboard */; };
 		4890478A25DEE51500DAD622 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890478925DEE51500DAD622 /* Registration.swift */; };
 		4890478E25DEE5BF00DAD622 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890478D25DEE5BF00DAD622 /* RoomType.swift */; };
+		4890479125DEF2B600DAD622 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890479025DEF2B600DAD622 /* RegistrationTableViewController.swift */; };
+		4890479425DEF2EC00DAD622 /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890479325DEF2EC00DAD622 /* SelectRoomTypeTableViewController.swift */; };
+		4890479725DEF31900DAD622 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4890479625DEF31900DAD622 /* AddRegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4890477C25DEE38D00DAD622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4890478925DEE51500DAD622 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		4890478D25DEE5BF00DAD622 /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		4890479025DEF2B600DAD622 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		4890479325DEF2EC00DAD622 /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
+		4890479625DEF31900DAD622 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		4890478525DEE3BB00DAD622 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4890479025DEF2B600DAD622 /* RegistrationTableViewController.swift */,
+				4890479325DEF2EC00DAD622 /* SelectRoomTypeTableViewController.swift */,
+				4890479625DEF31900DAD622 /* AddRegistrationTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,9 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4890479425DEF2EC00DAD622 /* SelectRoomTypeTableViewController.swift in Sources */,
 				4890478E25DEE5BF00DAD622 /* RoomType.swift in Sources */,
 				4890476F25DEE38500DAD622 /* AppDelegate.swift in Sources */,
 				4890478A25DEE51500DAD622 /* Registration.swift in Sources */,
+				4890479725DEF31900DAD622 /* AddRegistrationTableViewController.swift in Sources */,
+				4890479125DEF2B600DAD622 /* RegistrationTableViewController.swift in Sources */,
 				4890477125DEE38500DAD622 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
